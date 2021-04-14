@@ -8,6 +8,23 @@ public class Manager : MonoBehaviour
     [SerializeField] Rotator rotator;
     [SerializeField] PinSpawner pinSpawner;
     [SerializeField] CameraAnimator animator;
+    [SerializeField] int numberOfPins;
+    private int currentNumberOfPins = 0;
+
+    public int GetTotalNumberOfPins() 
+    { 
+        return numberOfPins;
+    }
+
+    public int GetCurrentNumberOfPins() 
+    { 
+        return currentNumberOfPins; 
+    }
+
+    public void AddPin()
+    {
+        currentNumberOfPins++;
+    }
 
     public void GameOver()
     {
