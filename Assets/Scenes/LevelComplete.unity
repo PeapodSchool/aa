@@ -202,12 +202,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1774582951291696609, guid: 04608e2b3a177ed48972dc590d70cd5f,
+          type: 3}
+        m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -427,6 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 519420030}
+  level: {fileID: 0}
 --- !u!1 &830378055
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +440,7 @@ GameObject:
   - component: {fileID: 830378056}
   - component: {fileID: 830378058}
   - component: {fileID: 830378057}
+  - component: {fileID: 830378059}
   m_Layer: 5
   m_Name: SubTitle
   m_TagString: Untagged
@@ -561,6 +564,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830378055}
   m_CullTransparentMesh: 0
+--- !u!114 &830378059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830378055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7c127134cb93f4085d79e2e9d6abe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 830378057}
 --- !u!1 &836992519
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,12 +760,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1774582951291696609, guid: 04608e2b3a177ed48972dc590d70cd5f,
+          type: 3}
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
